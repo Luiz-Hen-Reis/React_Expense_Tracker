@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Mukta", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --clr-blue-1: #45aab8;
+  --clr-khaki: #e1d772;
+  --clr-beige: #faf4b1;
+  --clr-grey-3: #394240;
+  --clr-light-orange: #f06b50;
+  --clr-white: #e7eed0;
+  --clr-white-2: #fff;
+  --clr-grey-1: #888;
+  --clr-green: 	#14bf1a;
+  --clr-red: #d63f3f;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.component-container {
+  background-color: var(--clr-white-2);
+  padding: 20px;
+  box-shadow: 0px 0px 5px #ccc;
+  border-radius: 10px;
+  margin-top: 20px;
+}
